@@ -1,0 +1,228 @@
+*{
+    border: 0; /* borde 0 para todas las etiquetas */
+}
+
+body{
+    color: #7f888f; /* color de letra */
+    font-family: "Open Sans", sans-serif; /* tipologia de letra */
+    font-size: 13pt; /* tamaño de letra */
+    font-weight: 400; /* grosor de la letra */
+    line-height: 1.65; /* espaciado entre las lineas */
+}
+ul{
+    list-style: none; /* no muestra ningún marcador en la lista  */
+}
+h1{
+    font-size: 3.5em; /* tamaño de letra */
+    margin: 0 0 0.5em 0; /* margenes */
+    line-height: 1.3; /* espaciado entre las lineas */
+    font-weight: 700; /* grosor de la letra */
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #3d4449; /* color de letra */
+    font-family: "Roboto Slab", serif; /* tipologia de letra */
+}
+a{
+    text-decoration: none;
+    color: #000000; /* color de letra */
+}
+img{
+    border-radius: 0.375em; /* establece el redondeo de las esquinas  */
+}
+p {
+    margin: 0 0 2em 0; /* margenes */
+}
+.icono{
+    color: #f56a6a; /* color del icono */
+    padding-right: 10px; /* rellendo de la derecha */
+}
+#query{
+    width: 75%; /* ancho */
+    height: 2.75em; /* altura */
+    border: solid 1px rgba(210, 215, 217, 0.75); /* pinta una linea de un color de tamaño un pixel sobre el borde */
+    border-radius: 0.375em; /* establece el redondeo de las esquinas  */
+    padding-left: 3%; /* relleno de la izquierda */
+    color: #7f888f; /* color de letra */
+    font-family: "Open Sans", sans-serif; /* tipologia de letra */
+}
+
+#barra-menu{
+    width: 30%; /* ancho */
+    padding-top: 1%; /* relleno superior */
+    padding-left: 1%; /* relleno de la izquierda */
+    padding-right: 2%; /* rellendo de la derecha */
+    background-color: #f5f6f7; /* color de fondo */
+    font-size: 0.9em; /* tamaño de letra */
+    letter-spacing: 0.075em; /* espacio entre letras */
+    border-top: solid 1px rgba(210, 215, 217, 0.75);  /* pinta una linea de un color de tamaño un pixel sobre el borde */
+}
+#primer-titulo{
+    width: 30%; /* ancho */
+    color: #3d4449; /* color de letra */
+    font-family: "Roboto Slab", serif; /* tipologia de letra */
+    font-weight: 700; /* grosor de la letra */
+    line-height: 1.5; /* espaciado entre las lineas */
+    font-size: 1.38889em; /* tamaño de letra */
+    border-bottom: solid 3px #f56a6a; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+    padding-left: 1%; /* relleno de la izquierda */
+}
+#segundo-titulo{
+    width: 60%; /* ancho */
+    color: #3d4449; /* color de letra */
+    font-family: "Roboto Slab", serif; /* tipologia de letra */
+    font-weight: 700; /* grosor de la letra */
+    line-height: 1.5; /* espaciado entre las lineas */
+    font-size: 1.38889em; /* tamaño de letra */
+    border-bottom: solid 3px #f56a6a; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+    padding-left: 1%; /* relleno de la izquierda */
+}
+#tercer-titulo{
+    width: 50%; /* ancho */
+    color: #3d4449; /* color de letra */
+    font-family: "Roboto Slab", serif; /* tipologia de letra */
+    font-weight: 700; /* grosor de la letra */
+    line-height: 1.5; /* espaciado entre las lineas */
+    font-size: 1.38889em; /* tamaño de letra */
+    border-bottom: solid 3px #f56a6a; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+    padding-left: 1%; /* relleno de la izquierda */
+}
+#tercer-titulo ~ ul{
+    margin-right: 20px; /* margen derecho */
+}
+#tercer-titulo ~ ul>li{
+    padding-bottom: 10px; /* relleno inferior */
+    padding-top: 20px; /* relleno superior */
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75); /* pinta una linea de tamaño 1 pixel de un color sobre el borde */
+}
+#barra-menu>header>nav>section>ul{
+    color: #3d4449; /* color de letra */
+    font-family: "Roboto Slab", serif;/* tipologia de letra */
+    font-weight: 400; /* grosor de la letra */
+    letter-spacing: 0.075em; /* espacio entre letras */
+    margin: 0; /* margenes */
+}
+#barra-menu>header>nav>section>ul>li:first-child{
+    border-top: 0; /* borde superior */
+    margin-top: 0; /* margen superior */
+    padding-top: 2%; /* relleno superior */
+}
+#barra-menu>header>nav>section>ul>li{
+    border-top: solid 1px rgba(210, 215, 217, 0.75); /* pinta una linea de tamaño 1 pixel de un color sobre el borde */
+    margin: 0.5em 0 0 0; /* margenes */
+    padding: 0.5em 0 0 0; /* relleno */
+}
+
+#principal{
+    padding-left: 5%; /* relleno de la izquierda */
+    padding-right: 3%; /* rellendo de la derecha */
+    padding-top: 2%; /* relleno superior */
+    padding-bottom: 2%; /* relleno inferior */
+}
+#header{
+    padding-top: 3%; /* relleno superior */
+    border-bottom: solid 5px #f56a6a /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+}
+#header>a{
+    padding-right: 75%; /* rellendo de la derecha */
+    padding-bottom: 2%; /* relleno inferior */
+}
+#header>ul>li{
+    padding-right: 10%; /* rellendo de la derecha */
+}
+#primero{
+    padding-top: 7%; /* relleno superior */
+    padding-bottom: 4%; /* relleno inferior */
+    border-bottom: 3px solid #EDF0F1; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+}
+#contenido{
+    padding-right: 4%; /* rellendo de la derecha */
+}
+#prim-linea{
+    font-family: "Roboto Slab", serif; /* tipologia de letra */
+    font-size: 1em; /* tamaño de letra */
+    font-weight: 400; /* grosor de la letra */
+    letter-spacing: 0.075em; /* espacio entre letras */
+    margin-top: -0.5em; /* margen superior */
+}
+#iconos{
+    padding-top: 7%; /* relleno superior */
+    padding-bottom: 5%; /* relleno inferior */
+    border-bottom: 3px solid #EDF0F1; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+}
+#iconos>h2{
+    width: 160px; /* ancho */
+    padding-bottom: 1.5%; /* relleno inferior */
+    border-bottom: solid 3px #f56a6a; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+}
+
+.horizontal>#icono{
+    width: 20px; /* ancho */
+    height: 20px; /* altura */
+    border: 1px solid #EDF0F1; /* pinta una linea de tamaño 1 pixel de un color sobre el borde */
+}
+#seccion-fotos{
+    padding-top: 7%; /* relleno superior */
+}
+#seccion-fotos>h2{
+    width: 230px; /* ancho */
+    padding-bottom: 1.5%; /* relleno inferior */
+    border-bottom: solid 3px #f56a6a; /* pinta una linea de tamaño 3 pixeles de un color sobre el borde */
+}
+#fotos{
+    padding-top: 4%; /* relleno superior */
+}
+
+.horizontal{
+    display: flex; /* coloca los elementos en horizontal */
+}
+.articulo-barra{
+    margin-top: 20%; /* margen superior */
+    padding-bottom: 5%; /* relleno inferior */
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75); /* pinta una linea de tamaño 1 pixel de un color sobre el borde */
+    
+}
+.boton{
+    border: solid 1px #f56a6a; /* pinta una linea de tamaño 1 pixel de un color sobre el borde */
+    color: #f56a6a; /* color de letra */
+    font-family: "Roboto Slab", serif; /* tipologia de letra */
+    font-size: 12px; /* tamaño de letra */
+    padding-right: 3%; /* rellendo de la derecha */
+    padding-left: 3%; /* relleno de la izquierda */
+    padding-top: 2%; /* relleno superior */
+    padding-bottom: 2%; /* relleno inferior */
+    border-radius:  0.375em; /* establece el redondeo de las esquinas  */
+    background-color: transparent; /* color de fondo */
+    box-shadow: inset 0 0 0 2px #f56a6a; /* pinta  una sombra difuminada */
+}
+.contenido-foto1{
+    padding-right: 3%;/* rellendo de la derecha */
+    padding-bottom: 3%;/* relleno inferior */
+    border-right: 2px solid #EDF0F1; /* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+    border-bottom: 2px solid #EDF0F1;/* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+}
+.contenido-foto2{
+    padding-left: 3%; /* relleno de la izquierda */
+    padding-bottom: 3%;/* relleno inferior */
+    padding-right:3%; /* rellendo de la derecha */
+    border-bottom: 2px solid #EDF0F1; /* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+    border-right: 2px solid #EDF0F1; /* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+}
+.contenido-foto3{
+    padding-left:3%; /* relleno de la izquierda */
+    border-bottom: 2px solid #EDF0F1; /* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+}
+.contenido-foto4{
+    padding-top: 3%; /* relleno superior */
+    padding-right: 3%; /* rellendo de la derecha */
+    border-right: 2px solid #EDF0F1; /* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+}
+.contenido-foto5{
+    padding-left: 3%; /* relleno de la izquierda */
+    padding-right: 3%; /* rellendo de la derecha */
+    padding-top: 3%; /* relleno superior */
+    border-right: 2px solid #EDF0F1; /* pinta una linea de tamaño 2 pixeles de un color sobre el borde */
+}
+.contenido-foto6{
+    padding-left: 3%; /* relleno de la izquierda */
+    padding-top: 3%; /* relleno superior */
+}
